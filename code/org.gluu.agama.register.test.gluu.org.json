@@ -5,8 +5,8 @@
 			"type": "startNode",
 			"sourcePosition": "right",
 			"position": {
-				"x": 30,
-				"y": 30
+				"x": 210,
+				"y": 96
 			},
 			"data": {
 				"id": "startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445",
@@ -21,7 +21,7 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "1000",
-					"inputs": "",
+					"inputs": "asf",
 					"configs": "test",
 					"flowname": "org.gluu.agama.register.test.gluu.org",
 					"displayName": "Test ",
@@ -34,13 +34,69 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": true,
+			"dragging": false
+		},
+		{
+			"id": "iterateOverNode-1fb7ae5b-296e-4c93-bcba-063584cc7052",
+			"type": "iterateOverNode",
+			"position": {
+				"x": 460,
+				"y": 96
+			},
+			"data": {
+				"id": "iterateOverNode-1fb7ae5b-296e-4c93-bcba-063584cc7052",
+				"type": "iterateOverNode",
+				"position": {
+					"x": 460,
+					"y": 96
+				},
+				"previousNodeId": "startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445",
+				"agamaData": {
+					"iterateOn": "sf",
+					"iterateAs": "",
+					"iterateResult": "asf",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "asf",
+					"hasComment": true,
+					"comment": "asf",
+					"nodeIcon": "ph:swap",
+					"iterateUsing": "zf"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
 		}
 	],
-	"edges": [],
+	"edges": [
+		{
+			"id": "startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445-iterateOverNode-1fb7ae5b-296e-4c93-bcba-063584cc7052",
+			"type": "default",
+			"source": "startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445",
+			"target": "iterateOverNode-1fb7ae5b-296e-4c93-bcba-063584cc7052",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445"
+		}
+	],
 	"viewport": {
-		"x": 0,
-		"y": 2.25,
-		"zoom": 1
+		"x": -1.1368683772161603e-13,
+		"y": 2.2499999999999147,
+		"zoom": 1.0000000000000004
 	}
 }
