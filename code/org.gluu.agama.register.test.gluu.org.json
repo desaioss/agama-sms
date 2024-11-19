@@ -20,9 +20,9 @@
 					"basepath": "",
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
-					"timeout": "",
+					"timeout": "1000",
 					"inputs": "",
-					"configs": "",
+					"configs": "test",
 					"flowname": "org.gluu.agama.register.test.gluu.org",
 					"displayName": "Test ",
 					"creationDate": "19/11/2024",
@@ -33,69 +33,14 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
-		},
-		{
-			"id": "callNode-aac27c9a-334d-4ab1-aeb7-059e5c3ba9b4",
-			"type": "callNode",
-			"position": {
-				"x": 280,
-				"y": 30
 			},
-			"data": {
-				"id": "callNode-aac27c9a-334d-4ab1-aeb7-059e5c3ba9b4",
-				"type": "callNode",
-				"position": {
-					"x": 280,
-					"y": 30
-				},
-				"previousNodeId": "startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445",
-				"agamaData": {
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"exceptionVariableField": "",
-					"callType": "Call static method",
-					"arguments": [],
-					"nodeIcon": "material-symbols:code",
-					"nodeColor": "",
-					"titleColor": "",
-					"descColor": "",
-					"displayName": "",
-					"hasComment": true,
-					"comment": ""
-				}
-			},
-			"measured": {
-				"width": 170,
-				"height": 124
-			}
+			"selected": true
 		}
 	],
-	"edges": [
-		{
-			"id": "startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445-callNode-aac27c9a-334d-4ab1-aeb7-059e5c3ba9b4",
-			"type": "default",
-			"source": "startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445",
-			"target": "callNode-aac27c9a-334d-4ab1-aeb7-059e5c3ba9b4",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "",
-			"labelBgStyle": {
-				"fill": "#009688",
-				"color": "#ffffff",
-				"fillOpacity": 0.7
-			},
-			"labelShowBg": true,
-			"sourceHandle": "source_startNode-e8e7107f-a87b-40ee-8427-d1e0ca9b6445"
-		}
-	],
+	"edges": [],
 	"viewport": {
 		"x": 0,
-		"y": 0,
+		"y": 2.25,
 		"zoom": 1
 	}
 }
