@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "startNode-ccf9adf9-d8fd-4e1a-908c-5cc2859fd443",
+      "type": "startNode",
+      "sourcePosition": "right",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "data": {
+        "id": "startNode-ccf9adf9-d8fd-4e1a-908c-5cc2859fd443",
+        "type": "startNode",
+        "position": {
+          "x": 30,
+          "y": 40
+        },
+        "agamaData": {
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": "",
+          "flowname": "org.gluu.agama.register.flow",
+          "displayName": "agama_test",
+          "creationDate": "19/11/2024",
+          "hasComment": true,
+          "comment": ""
+        }
+      }
+    }
+  ]
+}
