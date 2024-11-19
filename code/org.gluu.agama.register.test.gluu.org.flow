@@ -2,3 +2,6 @@ Flow org.gluu.agama.register.test.gluu.org
      Basepath ""
      Timeout 1000 seconds
      Configs test
+     Inputs asf
+// asf
+asf = Iterate over sf using zf
