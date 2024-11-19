@@ -1,3 +1,4 @@
 Flow org.gluu.agama.register.test.gluu.org
      Basepath ""
-Call __________#__________ 
+     Timeout 1000 seconds
+     Configs test
