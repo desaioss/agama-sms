@@ -57,7 +57,6 @@ Sample JSON:
      ```
 
 ## Demo
-ttttttt
 
 ## Contributors
 
