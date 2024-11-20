@@ -28,7 +28,21 @@
         "org.gluu.agama.test.flow": {},
         "org.gluu.agama.register.test.flow": {},
         "org.gluu.agama.reg.test.flow": {},
-        "f.af": {}
+        "f.af": {
+            "hello": {
+                "oauth": {
+                    "authzEndpoint": "https://wallet.hello.coop/authorize",
+                    "tokenEndpoint": "https://wallet.hello.coop/oauth/token",
+                    "userInfoEndpoint": "https://wallet.hello.coop/oauth/userinfo",
+                    "clientId": "CLIENT_INDENTIFIER",
+                    "clientSecret": "CLIENT_SECRET",
+                    "scopes": [
+                        "openid"
+                    ]
+                },
+                "uidPrefix": "hello-"
+            }
+        }
     },
     "name": "agama-sms"
 }
