@@ -1,35 +1,149 @@
 {
-  "nodes": [
-    {
-      "id": "startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd",
-      "type": "startNode",
-      "sourcePosition": "right",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "data": {
-        "id": "startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd",
-        "type": "startNode",
-        "position": {
-          "x": 30,
-          "y": 40
-        },
-        "agamaData": {
-          "isTopLevelFlow": true,
-          "basepath": "",
-          "configParams": "{}",
-          "nodeIcon": "material-symbols:line-start-square",
-          "timeout": "",
-          "inputs": "",
-          "configs": "",
-          "flowname": "f.af",
-          "displayName": "af",
-          "creationDate": "20/11/2024",
-          "hasComment": true,
-          "comment": ""
-        }
-      }
-    }
-  ]
+	"nodes": [
+		{
+			"id": "startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd",
+			"type": "startNode",
+			"sourcePosition": "right",
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"data": {
+				"id": "startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd",
+				"type": "startNode",
+				"position": {
+					"x": 30,
+					"y": 40
+				},
+				"agamaData": {
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "",
+					"inputs": "",
+					"configs": "",
+					"flowname": "f.af",
+					"displayName": "af",
+					"creationDate": "20/11/2024",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
+		},
+		{
+			"id": "rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d",
+			"type": "rfacNode",
+			"position": {
+				"x": 280,
+				"y": 30
+			},
+			"data": {
+				"id": "rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d",
+				"type": "rfacNode",
+				"position": {
+					"x": 280,
+					"y": 30
+				},
+				"previousNodeId": "startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd",
+				"agamaData": {
+					"nodeIcon": "ic:baseline-insert-link",
+					"idpAuthEndpoint": "",
+					"assignCallbackResult": "",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			}
+		},
+		{
+			"id": "logNode-84bbcde4-9930-42d5-9c72-ce5c988adc07",
+			"type": "logNode",
+			"position": {
+				"x": 530,
+				"y": 30
+			},
+			"data": {
+				"id": "logNode-84bbcde4-9930-42d5-9c72-ce5c988adc07",
+				"type": "logNode",
+				"position": {
+					"x": 530,
+					"y": 30
+				},
+				"previousNodeId": "rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d",
+				"agamaData": {
+					"logMessage": "",
+					"logLevel": "",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd-rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d",
+			"type": "default",
+			"source": "startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd",
+			"target": "rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_startNode-8bf1c1dd-0c0f-416d-bfdd-7cbfdb62affd"
+		},
+		{
+			"id": "rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d-logNode-84bbcde4-9930-42d5-9c72-ce5c988adc07",
+			"type": "default",
+			"source": "rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d",
+			"target": "logNode-84bbcde4-9930-42d5-9c72-ce5c988adc07",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_rfacNode-bfba13a6-1e5c-4a90-bd2b-5de571f2fa4d"
+		}
+	],
+	"viewport": {
+		"x": 249,
+		"y": 4,
+		"zoom": 1
+	}
 }
