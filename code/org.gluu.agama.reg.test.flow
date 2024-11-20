@@ -2,3 +2,4 @@ Flow org.gluu.agama.reg.test
      Basepath ""
      Timeout 200 seconds
      Configs confi
+Log "@ " __________
