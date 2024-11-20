@@ -22,7 +22,7 @@
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "200",
 					"inputs": "Test",
-					"configs": "",
+					"configs": "confi",
 					"flowname": "org.gluu.agama.reg.test",
 					"displayName": "Test",
 					"creationDate": "20/11/2024",
