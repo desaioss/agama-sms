@@ -34,14 +34,68 @@
 				"width": 168,
 				"height": 120
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-3c30a433-76b3-469f-adbc-cb39868c5cea",
+			"type": "logNode",
+			"position": {
+				"x": 599,
+				"y": 113.5
+			},
+			"data": {
+				"id": "logNode-3c30a433-76b3-469f-adbc-cb39868c5cea",
+				"type": "logNode",
+				"position": {
+					"x": 349,
+					"y": 111
+				},
+				"previousNodeId": "startNode-29e9c91f-fd26-40dc-a24e-119c3f4e9a17",
+				"agamaData": {
+					"logMessage": "",
+					"logLevel": "",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
 			"selected": true,
 			"dragging": false
 		}
 	],
-	"edges": [],
+	"edges": [
+		{
+			"id": "startNode-29e9c91f-fd26-40dc-a24e-119c3f4e9a17-logNode-3c30a433-76b3-469f-adbc-cb39868c5cea",
+			"type": "default",
+			"source": "startNode-29e9c91f-fd26-40dc-a24e-119c3f4e9a17",
+			"target": "logNode-3c30a433-76b3-469f-adbc-cb39868c5cea",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_startNode-29e9c91f-fd26-40dc-a24e-119c3f4e9a17"
+		}
+	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
-		"zoom": 1
+		"x": -280.05559045535824,
+		"y": -215.42769533876196,
+		"zoom": 2
 	}
 }
