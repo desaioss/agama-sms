@@ -4,5 +4,3 @@ Flow org.gluu.agama.reg.test
      Configs confi
      Inputs Test
 Log "@error " error
-it_jvdhl = {success:true, data: { userId: "as9233Qz", property1: "value1"}}
-Finish it_jvdhl
