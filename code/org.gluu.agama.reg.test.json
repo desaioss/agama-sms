@@ -20,7 +20,7 @@
 					"basepath": "",
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
-					"timeout": "",
+					"timeout": "200",
 					"inputs": "",
 					"configs": "",
 					"flowname": "org.gluu.agama.reg.test",
@@ -33,7 +33,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		}
 	],
 	"edges": [],
