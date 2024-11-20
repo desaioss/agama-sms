@@ -17,5 +17,6 @@ When authResult is not null and authResult.success is true
      // Verify and add user to Jans Server
      uid = Call io.jans.inbound.UserOnboardHelper#exec uidPrefix profile
      Log "@info [agama-hello] user login successfully with " uid 
+     Finish uid
 Log "@error [agama-hello] " e
 Finish e
