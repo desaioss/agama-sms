@@ -42,7 +42,8 @@
                 },
                 "uidPrefix": "hello-"
             }
-        }
+        },
+        "org.gluu.agama.reg.test": {}
     },
     "name": "agama-sms"
 }
