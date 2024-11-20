@@ -21,7 +21,7 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "200",
-					"inputs": "",
+					"inputs": "Test",
 					"configs": "",
 					"flowname": "org.gluu.agama.reg.test",
 					"displayName": "Test",
