@@ -3,4 +3,3 @@ Flow org.gluu.agama.reg.test
      Timeout 200 seconds
      Configs confi
      Inputs Test
-Log "@error " error
