@@ -35,62 +35,9 @@
 				"height": 120
 			},
 			"selected": false
-		},
-		{
-			"id": "logNode-533d188c-d142-40e9-918b-3e4be9e2a18b",
-			"type": "logNode",
-			"position": {
-				"x": 280,
-				"y": 30
-			},
-			"data": {
-				"id": "logNode-533d188c-d142-40e9-918b-3e4be9e2a18b",
-				"type": "logNode",
-				"position": {
-					"x": 280,
-					"y": 30
-				},
-				"previousNodeId": "startNode-5dbef482-71a0-4dc1-86af-f145cb928507",
-				"agamaData": {
-					"logMessage": "error",
-					"logLevel": "error",
-					"nodeIcon": "octicon:log-16",
-					"nodeColor": "",
-					"titleColor": "",
-					"descColor": "",
-					"displayName": "",
-					"hasComment": true,
-					"comment": ""
-				}
-			},
-			"measured": {
-				"width": 170,
-				"height": 124
-			},
-			"selected": false
 		}
 	],
-	"edges": [
-		{
-			"id": "startNode-5dbef482-71a0-4dc1-86af-f145cb928507-logNode-533d188c-d142-40e9-918b-3e4be9e2a18b",
-			"type": "default",
-			"source": "startNode-5dbef482-71a0-4dc1-86af-f145cb928507",
-			"target": "logNode-533d188c-d142-40e9-918b-3e4be9e2a18b",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "",
-			"labelBgStyle": {
-				"fill": "#009688",
-				"color": "#ffffff",
-				"fillOpacity": 0.7
-			},
-			"labelShowBg": true,
-			"sourceHandle": "source_startNode-5dbef482-71a0-4dc1-86af-f145cb928507"
-		}
-	],
+	"edges": [],
 	"viewport": {
 		"x": 0,
 		"y": 0,
