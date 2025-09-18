@@ -16,3 +16,4 @@ Repeat 3 times max
 // Max number of attemps has been reached.
 Log "@info Max number of attemps has been reached."
 phoneUiFeedback.errorMessage = "Invalid phone number"
+Call __________#__________ 
